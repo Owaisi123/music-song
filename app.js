@@ -41,7 +41,7 @@ document.addEventListener("keydown", (event) => {
 
 const playButtons = document.querySelectorAll("[class^='play-button']");
 const audioList = Array.from({ length: 14 }, (_, i) => ({
-  audio: new Audio(`songs/music${i + 1}.mp3`), 
+  audio: new Audio(`Songs/music${i + 1}.mp3`), 
   isPlaying: false,
 }));
 
